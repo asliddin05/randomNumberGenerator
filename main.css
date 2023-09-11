@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 300px;
+    gap: 110px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#generate {
+    padding: 10px 15px;
+    border: none;
+    background-color:rgb(143, 99, 41);
+    font-weight: 700;
+    color: white;
+}
+#min-box, #max-box {
+    display: flex;
+    flex-direction: column;
+}
+#min, #max {
+    padding: 10px 15px;
+    margin-top: 8px;
+}
+#generate {
+    cursor: pointer;
+}
